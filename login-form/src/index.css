@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form__container {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #677d83 0%, #82e4c6 100%);
+ 
+}
+
+.form__container form {
+  box-shadow: rgba(57, 61, 63, 0.212) 0px 2px 2px 2px,
+    rgba(52, 127, 185, 0.651) 0px 2px 3px 1px;
+  padding: 30px;
+}
+.form__heading {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 10px;
+}
+.form__button {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.863);
+  color: white;
+  padding: 5px;
+  border-radius: 1%;
+}
+.form__button:hover {
+  background-color: rgba(0, 0, 0, 0.253);
+}
+.form__submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 10px 0px;
+}
+.form__submit-btn:hover {
+  opacity: 0.9;
+}
+.content {
+  min-height: 73vh !important;
+}
